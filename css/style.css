@@ -7,26 +7,50 @@
       text-align: center;
   }
   
-  form_body {
+  #form_body {
       background-color: #F2F3F4;
       font-size: 15 px;
       text-align: center;
   }
   input {
-      width: 87%;
+      width: 50%;
       padding: 10px 15px;
       margin: 10px;
-      text-align: center;
       display: inline-block;
   }
-  input[type=text], input[type=email]{
-      padding-bottom: 5%;
-      font-size:15px;
-      text-align: center;
-  }
-  input[type=submit]{
-      text-align: center;
+  #sign_up{
+      background-color: #566573;
       display: inline-block;
       font-size: 15px;
-      
   }
+}
+  
+/*For mobile
+@media only screen and (max-width: 480px) {
+  form {
+    margin: 0 0 5px 0;
+    width: 100%;
+  }
+  form > label,
+  legend {
+	  width: 100%;
+    float: none;
+  }
+
+  label {
+    width: 100%;
+    text-align: center;
+  }
+
+  form > fieldset {
+    width: 80%;
+    float: none;
+  }
+
+  input[type=text],
+  input[type=text],
+  input[type=text],
+  input[type=date] {
+    width: 95%;
+  }
+}*/
